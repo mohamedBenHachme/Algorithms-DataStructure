@@ -10,5 +10,4 @@ in order to run one of these files just download the file .java and type in the 
 Or you can use an IDE which will be better.
 # SOURCES
 helpful sources :
-  geeksforgeeks
-  mit introduction to algorithms
+  geeksforgeeks, mit introduction to algorithms
