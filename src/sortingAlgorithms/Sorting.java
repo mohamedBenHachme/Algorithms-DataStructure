@@ -8,10 +8,12 @@ public class Sorting {
 	 * 
 	                         */
 	public static void sort(int arr[], int low, int high){
-		int m = ( high - low )/2;
-		sort(arr, low, m);
-		sort(arr, m + 1, high);
-		merge(arr, low, m, high);
+		if( low < high){
+			int m = ( high - low )/2;
+			sort(arr, low, m);
+			sort(arr, m + 1, high);
+			merge(arr, low, m, high);
+		}
 	}
 	
 	public static void merge(int arr[], int l, int m, int h){
